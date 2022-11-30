@@ -1,0 +1,2207 @@
+body {
+    overflow-x: hidden;
+  }
+  .banner-menutap {
+    margin-top: 120px;
+    position: relative;
+  }
+  .banner-menutap .banner-menutap_svg {
+    height: 800px;
+    overflow: hidden;
+  }
+  .banner-menutap .banner-menutap_title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .banner-menutap .banner-menutap_btn {
+    
+    width: 330px;
+
+    margin: auto;
+    background: rgba(13, 31, 86, 0.5);
+    display: flex;
+    border-bottom-right-radius: 16px;
+    margin-bottom: 30px;
+  }
+  .banner-menutap .banner-menutap_btn .withoutegitech {
+    border: 0px;
+    outline: none;
+    padding: 15px 15px;
+    color: white;
+    background: transparent;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .banner-menutap .banner-menutap_btn .withegitech {
+    border: 0px;
+    outline: none;
+    background: transparent;
+    padding: 15px 15px;
+    color: white;
+  }
+  .banner-menutap_withegitech {
+    display: none;
+    position: relative;
+  }
+  .banner-menutap_withegitech svg {
+    width: 100%;
+  }
+  
+  .banner-menutap_withegitech .banner-logo {
+    position: absolute;
+    top: 48.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 207px;
+  }
+  
+  .tablinks.withegitech.active {
+    border: 0px;
+    outline: none;
+    background: #EF476F;
+    border-bottom-right-radius: 16px;
+  }
+  
+  .tablinks.withoutegitech.active {
+    background: #EF476F;
+  }
+  
+  .banner-menutap .banner-menutap_container {
+    position: absolute;
+    top: 12%;
+    width: 75%;
+  }
+  
+  .banner-menutap .banner-menutap_container .banner-menutap_withoutegitech svg {
+    width: 100%;
+  }
+  
+  #WithoutEgitech {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+  }
+  #withegitech {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+  }
+  /* Từ Poor Inventory Management -> Low Labor Productivity */
+  
+  #WithoutEgitech .menutap-svg_PoorInventory-LowLabor {
+    left: 14.6%;
+    top: 34.5%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 140px;
+    width: 1px;
+    background: transparent;
+    transform: rotate(-11deg);
+    z-index: 2;
+  }
+  
+  #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: 14.6%;
+    top: 0%;
+    animation: PoorLow 0.5s infinite;
+  }
+  #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background-image: url(".../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: 14.6%;
+    top: 0%;
+    animation: PoorLow 3s infinite;
+  }
+  @keyframes PoorLow {
+    100% {
+      left: 14.6%;
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Low Labor Productivity -> Poor Inventory Management  */
+  #WithoutEgitech .menutap-svg_LowLabor-PoorInventory {
+    left: 14.6%;
+    top: 34.5%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 140px;
+    width: 1px;
+    background: transparent;
+    transform: rotate(-11deg);
+    z-index: 2;
+  }
+  
+  #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::after {
+    content: "";
+    width: 15px;
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: 14.6%;
+    top: 0%;
+    animation: LowPoor 2s infinite;
+  }
+  
+  #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::before {
+    content: "";
+    width: 15px;
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: 14.6%;
+    top: 0%;
+    animation: LowPoor 4s infinite;
+  }
+  @keyframes LowPoor {
+    0% {
+      left: 14.6%;
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Low Labor Productivity -> Low Tranceability */
+  #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability {
+    left: 40.4%;
+    top: 49.6%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 230px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-77deg);
+    z-index: 2;
+  }
+  
+  #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowLow 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowLow 3s infinite;
+  }
+  @keyframes LowLow {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Low Tranceability -> Low Labor Productivity */
+  #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity {
+    left: 40.4%;
+    top: 49.6%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 230px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-77deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: TracLow 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: TracLow 3s infinite;
+  }
+  @keyframes TracLow {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Low Tranceability -> Inaccurate Report */
+  #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport {
+    left: 67.2%;
+    top: 12.7%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 460px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(67deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowInaccurate 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowInaccurate 2s infinite;
+  }
+  @keyframes LowInaccurate {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Inaccurate Report -> Low Tranceability */
+  #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability {
+    left: 67.2%;
+    top: 12.7%;
+    position: absolute;
+    animation-delay: 2s;
+    height: 460px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(67deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: InaccurateLow 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: InaccurateLow 2s infinite;
+  }
+  @keyframes InaccurateLow {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Inaccurate Report -> Ineffucient Picking Process */
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+    right: 15.4%;
+    position: absolute;
+    top: 41.9%;
+    animation-delay: 2s;
+    height: 111px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(7deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inaccurateinefficient 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inaccurateinefficient 2s infinite;
+  }
+  @keyframes inaccurateinefficient {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Ineffucient Picking Process -> Inaccurate Report   */
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+    right: 15.4%;
+    position: absolute;
+    top: 41.9%;
+    animation-delay: 2s;
+    height: 111px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(7deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inaccurateinefficient 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inaccurateinefficient 2s infinite;
+  }
+  @keyframes inaccurateinefficient {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Inaccurate Report -> Ineffucient Picking Process */
+  #WithoutEgitech .menutap-svg_Inefficient-Inaccurate {
+    right: 15.4%;
+    position: absolute;
+    top: 41.9%;
+    animation-delay: 2s;
+    height: 111px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(7deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inefficientinaccurate 5s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: inefficientinaccurate 0.6s infinite;
+  }
+  @keyframes inefficientinaccurate {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Inaccurate-> Redundant */
+  #WithoutEgitech .menutap-svg_Inaccurate-Redundant {
+    right: 38%;
+    position: absolute;
+    top: 6.6%;
+    animation-delay: 2s;
+    height: 210px;
+    width: 2px;
+    background: translate;
+    transform: rotate(-70deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Redundant::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: InaccurateRedundant 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Inaccurate-Redundant::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: InaccurateRedundant 3s infinite;
+  }
+  @keyframes InaccurateRedundant {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Redundant -> Inaccurate  */
+  #WithoutEgitech .menutap-svg_Redundant-Inaccurate {
+    right: 38%;
+    position: absolute;
+    top: 6.6%;
+    animation-delay: 2s;
+    height: 210px;
+    width: 2px;
+    background: translate;
+    transform: rotate(-70deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Redundant-Inaccurate::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: RedundantInaccurate 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Redundant-Inaccurate::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: RedundantInaccurate 3s infinite;
+  }
+  @keyframes RedundantInaccurate {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ Redundant-Low */
+  #WithoutEgitech .menutap-svg_Redundant-Low {
+    right: 57.5%;
+    position: absolute;
+    top: 7.7%;
+    animation-delay: 2s;
+    height: 350px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-130deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Redundant-Low::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: RedundantLow 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Redundant-Low::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: RedundantLow 5s infinite;
+  }
+  @keyframes RedundantLow {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Low-Redundant */
+  #WithoutEgitech .menutap-svg_Low-Redundant {
+    right: 57.5%;
+    position: absolute;
+    top: 7.7%;
+    animation-delay: 2s;
+    height: 350px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-130deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Low-Redundant::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowRedundant 1s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Low-Redundant::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: LowRedundant 5s infinite;
+  }
+  @keyframes LowRedundant {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ Redudant-low */
+  #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti {
+    right: 48.4%;
+    position: absolute;
+    top: 21%;
+    animation-delay: 2s;
+    height: 280px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-171deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: Redudantlowtraceabliliti 4s infinite;
+  }
+  #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: Redudantlowtraceabliliti 1s infinite;
+  }
+  @keyframes Redudantlowtraceabliliti {
+    0% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  
+  /* Từ lowtraceabliliti-Redudant */
+  .menutap-svg_lowtraceabliliti-redudant {
+    right: 48.4%;
+    position: absolute;
+    top: 21%;
+    animation-delay: 2s;
+    height: 280px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-171deg);
+    z-index: 2;
+  }
+  .menutap-svg_lowtraceabliliti-redudant::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: lowtraceabliliti-Redudant 1s infinite;
+  }
+  @keyframes lowtraceabliliti-Redudant {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  /* Từ menutap-svg_Poor-ineffcient */
+  #WithoutEgitech .menutap-svg_Poor-ineffcient {
+    right: 58.2%;
+    position: absolute;
+    top: -17%;
+    animation-delay: 2s;
+    height: 675px;
+    width: 2px;
+    background: transparent;
+    transform: rotate(-76deg);
+    z-index: 2;
+  }
+  #WithoutEgitech .menutap-svg_Poor-ineffcient::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    left: -235%;
+    top: 0%;
+    width: 15px;
+    animation: Poor-ineffcient 6s infinite;
+  }
+  @keyframes Poor-ineffcient {
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  #WithoutEgitech .Poor-Inventory-Management {
+    position: relative;
+  }
+  #WithoutEgitech svg g.Poor-Inventory-Management::before {
+    content: "";
+    position: absolute;
+    background: red;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100px;
+    height: 100px;
+  }
+  #withegitech {
+    position: relative;
+  }
+  #withegitech .integrated-shipping-solutions {
+    position: absolute;
+    background: rgb(7, 31, 114);
+    width: 120px;
+    height: 2px;
+    top: 28%;
+    right: 34.6%;
+    transform: rotate(-35deg);
+  }
+  
+  #withegitech .integrated-shipping-solutions::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -230%;
+    width: 15px;
+    animation: integrated-shipping-solutions 5s infinite;
+  }
+  @keyframes integrated-shipping-solutions {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 93%;
+    }
+  }
+  
+  #withegitech .optimize-inbound {
+    position: absolute;
+    background: transparent;
+    width: 120px;
+    height: 2px;
+    top: 49.6%;
+    right: 35.6%;
+  }
+  #withegitech .optimize-inbound::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -190%;
+    width: 15px;
+    animation: integrated-shipping-solutions 2s infinite;
+  }
+  @keyframes optimize-inbound {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 93%;
+    }
+  }
+  
+  #withegitech .exceptional-customer {
+    position: absolute;
+    background: rgb(7, 31, 114);
+    width: 120px;
+    height: 2px;
+    bottom: 28%;
+    right: 34.6%;
+    transform: rotate(34deg);
+  }
+  
+  #withegitech .exceptional-customer::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -190%;
+    width: 15px;
+    animation-delay: 5s;
+    animation: exceptional-customer 15s infinite;
+  }
+  @keyframes exceptional-customer {
+    0% {
+      left: -1%;
+      opacity: 0;
+    }
+    100% {
+      left: 93%;
+    }
+  }
+  
+  #withegitech .advanced-anlytics {
+    position: absolute;
+    background: rgb(7, 31, 114);
+    width: 120px;
+    height: 2px;
+    top: 28%;
+    left: 34.6%;
+    transform: rotate(35deg);
+  }
+  
+  #withegitech .advanced-anlytics::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -200%;
+    width: 15px;
+    animation: advanced 5s infinite;
+  }
+  @keyframes advanced {
+    0% {
+      right: 0%;
+    }
+    100% {
+      right: 93%;
+    }
+  }
+  
+  #withegitech .real-time {
+    position: absolute;
+    background: transparent;
+    width: 120px;
+    height: 2px;
+    top: 49.6%;
+    left: 35.6%;
+  }
+  #withegitech .real-time::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -190%;
+    width: 15px;
+    animation: real-time 2s infinite;
+  }
+  @keyframes real-time {
+    0% {
+      right: 0%;
+    }
+    100% {
+      right: 93%;
+    }
+  }
+  
+  #withegitech .effcient-labor {
+    position: absolute;
+    background: rgb(7, 31, 114);
+    width: 120px;
+    height: 2px;
+     bottom: 28%;
+    left: 34.6%;
+    transform: rotate(-33deg);
+  }
+  
+  #withegitech .effcient-labor::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/Ellipse 13.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    top: -190%;
+    width: 15px;
+    animation-delay: 5s;
+    animation: effcient-labor 10s infinite;
+  }
+  @keyframes effcient-labor {
+    0% {
+      right: -1%;
+      opacity: 0;
+    }
+    100% {
+      right: 93%;
+    }
+  }
+  
+  @media (min-width: 1185px) and (max-width: 1400px) {
+    #WithoutEgitech {
+      width: 1000px;
+    }
+    /* ---- */
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory {
+      left: 15.2%;
+      top: 38.5%;
+      height: 110px;
+      width: 1px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::after {
+      left: -465%;
+      width: 15px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::before {
+      left: -465%;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes LowPoor1 {
+      0% {
+        top: 93%;
+        opacity: 1;
+      }
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor {
+      left: 15.2%;
+      top: 38.5%;
+      height: 110px;
+      width: 1px;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::after {
+      left: -465%;
+      width: 15px;
+      animation: PoorLow2 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::before {
+      left: -465%;
+      animation: PoorLow2 3s infinite;
+    }
+    @keyframes PoorLow2 {
+      100% {
+        top: 93%;
+        opacity: 1;
+      }
+    }
+    /* ------------ */
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity {
+      height: 194px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::after {
+      left: -200%;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::before {
+      left: -200%;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability {
+      height: 194px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::before {
+      left: -200%;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::after {
+      left: -200%;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport {
+      left: 67.4%;
+      top: 18.5%;
+      animation-delay: 2s;
+      height: 385px;
+    }
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability {
+      left: 67.4%;
+      top: 18.5%;
+      animation-delay: 2s;
+      height: 385px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+      right: 15.5%;
+      top: 42.9%;
+      height: 95px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+      left: -215%;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+      left: -215%;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate {
+      right: 15.5%;
+      top: 42.9%;
+      height: 95px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::after {
+      left: -215%;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::before {
+      left: -215%;
+    }
+  
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant {
+      right: 38%;
+      top: 13.5%;
+      height: 180px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::after {
+      left: -176%;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::before {
+      left: -176%;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate {
+      right: 38%;
+      top: 13.5%;
+      height: 180px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate:active {
+      left: -176%;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::before {
+      left: -176%;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low,
+    #WithoutEgitech .menutap-svg_Low-Redundant {
+      right: 57.5%;
+      top: 15.4%;
+      height: 290px;
+      width: 2px;
+      background: transparent;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low::after,
+    #WithoutEgitech .menutap-svg_Redundant-Low::before,
+    #WithoutEgitech .menutap-svg_Low-Redundant::after,
+    #WithoutEgitech .menutap-svg_Low-Redundant ::before {
+      left: -209%;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti {
+      right: 48.2%;
+      top: 25%;
+      height: 235px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::after {
+      left: -210%;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::before {
+      left: -210%;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant {
+      right: 48.2%;
+      top: 25%;
+      height: 235px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::after {
+      left: -210%;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::before {
+      left: -210%;
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient {
+      right: 58.2%;
+      top: -6.4%;
+      height: 570px;
+      background: transparent;
+      transform: rotate(-75.9deg);
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient::before {
+      left: -210%;
+    }
+  }
+  @media (min-width: 700px) and (max-width: 1185px) {
+    .banner-menutap .banner-menutap_btn
+    {
+      width: 298px;
+    }
+    .banner-menutap .banner-menutap_btn .withoutegitech,
+    .banner-menutap .banner-menutap_btn .withegitech
+    {
+      font-size: 13px;
+    }
+      .banner-menutap .banner-menutap_btn{
+          margin-bottom: 0px;
+      }
+      .banner-menutap .banner-menutap_title
+      {
+        text-align: center;
+      }
+    #WithoutEgitech {
+      width: 600px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory {
+      left: 15.2%;
+      top: 42.5%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::after {
+     left: -64%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::before {
+     left: -64%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes LowPoor1 {
+      0% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor {
+      left: 15.2%;
+      top: 42.5%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::after {
+      left: -64%;
+      width: 100%;
+      background-size: 4px;
+      animation: PoorLow2 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::before {
+      left: -64%;
+      width: 100%;
+      background-size: 4px;
+      animation: PoorLow2 3s infinite;
+    }
+    @keyframes PoorLow2 {
+      100% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    /* ------------ */
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity {
+      height: 117px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability {
+      height: 117px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport {
+      left: 67.4%;
+      top: 31.5%;
+      height: 225px;
+      width: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability {
+      left: 67.4%;
+      top: 31.5%;
+      height: 225px;
+    }
+  
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+  
+  
+  
+  
+  
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+      right: 15.3%;
+      top: 45.9%;
+      height: 56px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate {
+      right: 15.3%;
+      top: 45.9%;
+      height: 56px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::after {
+       left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant {
+      right: 38%;
+      top: 28.8%;
+      height: 100px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate {
+      right: 38%;
+      top: 28.8%;
+      height: 100px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low,
+    #WithoutEgitech .menutap-svg_Low-Redundant {
+      right: 57.5%;
+      top: 29.6%;
+      height: 170px;
+      width: 4px;
+      background: transparent;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low::after,
+    #WithoutEgitech .menutap-svg_Redundant-Low::before,
+    #WithoutEgitech .menutap-svg_Low-Redundant::after,
+    #WithoutEgitech .menutap-svg_Low-Redundant::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti {
+      right: 48.2%;
+      top: 35%;
+      height: 145px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant {
+      right: 48.2%;
+      top: 35%;
+      height: 145px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::after {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient {
+      right: 58.2%;
+      top: 17.4%;
+      height: 330px;
+      background: transparent;
+      transform: rotate(-75.9deg);
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient::before {
+      left: -20%;
+      width: 100%;
+      background-size: 4px;
+    }
+  }
+  @media (min-width: 460px) and (max-width: 700px) {
+      .banner-menutap .banner-menutap_title
+      {
+          text-align: left;
+      }
+    #WithoutEgitech {
+      width: 400px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory {
+      left: 14.9%;
+      top: 45%;
+      height: 45px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::after {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::before {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes LowPoor1 {
+      0% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor {
+      left: 14.9%;
+      top: 45%;
+      height: 45px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::after {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::before {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes PoorLow2 {
+      100% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    /* ------------ */
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity {
+      height: 75px;
+      left: 40%;
+      top: 50.1%;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::after {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::before {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability {
+      height: 75px;
+      left: 40%;
+      top: 50.1%;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::before {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::after {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport {
+      left: 67%;
+      top: 38%;
+      height: 150px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::after,
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::after {
+      left: -27%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::before,
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::before {
+      left: -27%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability {
+      left: 67%;
+      top: 38%;
+      height: 150px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+      right: 15.3%;
+      top: 47%;
+      height: 40px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate {
+      right: 15.3%;
+      top: 47%;
+      height: 40px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::after {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::before {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant {
+      right: 38%;
+      top: 35.6%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::after {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::before {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate {
+      right: 38%;
+      top: 35.6%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::after {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::before {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low,
+    #WithoutEgitech .menutap-svg_Low-Redundant {
+      right: 57.5%;
+      top: 36%;
+      height: 118px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low::after,
+    #WithoutEgitech .menutap-svg_Redundant-Low::before,
+    #WithoutEgitech .menutap-svg_Low-Redundant::after,
+    #WithoutEgitech .menutap-svg_Low-Redundant::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti {
+      right: 48%;
+      top: 40%;
+      height: 96px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::after {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant {
+      right: 48%;
+      top: 40%;
+      height: 96px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::after {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient {
+      right: 58%;
+      top: 27.9%;
+      height: 223px;
+      width: 4px;
+      background: transparent;
+      transform: rotate(-75.9deg);
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+  }
+  @media (min-width: 420px) and (max-width: 459px) {
+      .banner-menutap .banner-menutap_title
+      {
+          text-align: left;
+      }
+    #WithoutEgitech {
+      width: 400px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory {
+      left: 14.9%;
+      top: 45%;
+      height: 45px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::after {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory::before {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes LowPoor1 {
+      0% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor {
+      left: 14.9%;
+      top: 45%;
+      height: 45px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::after {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 0.5s infinite;
+    }
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor::before {
+      left: -34.6%;
+      width: 100%;
+      background-size: 4px;
+      animation: LowPoor1 3s infinite;
+    }
+    @keyframes PoorLow2 {
+      100% {
+        top: 90%;
+        opacity: 1;
+      }
+    }
+    /* ------------ */
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity {
+      height: 75px;
+      left: 40%;
+      top: 50.1%;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::after {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity::before {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability {
+      height: 75px;
+      left: 40%;
+      top: 50.1%;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::before {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability::after {
+      left: -7%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport {
+      left: 67%;
+      top: 38%;
+      height: 150px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::after,
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::after {
+      left: -27%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport::before,
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability::before {
+      left: -27%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability {
+      left: 67%;
+      top: 38%;
+      height: 150px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient {
+      right: 15.3%;
+      top: 47%;
+      height: 40px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::after {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient::before {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate {
+      right: 15.3%;
+      top: 47%;
+      height: 40px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::after {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate::before {
+      left: 21%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant {
+      right: 38%;
+      top: 35.6%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::after {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant::before {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+  
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate {
+      right: 38%;
+      top: 35.6%;
+      height: 70px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::after {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate::before {
+      left: 22%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low,
+    #WithoutEgitech .menutap-svg_Low-Redundant {
+      right: 57.5%;
+      top: 36%;
+      height: 118px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redundant-Low::after,
+    #WithoutEgitech .menutap-svg_Redundant-Low::before,
+    #WithoutEgitech .menutap-svg_Low-Redundant::after,
+    #WithoutEgitech .menutap-svg_Low-Redundant::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti {
+      right: 48%;
+      top: 40%;
+      height: 96px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::after {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant {
+      right: 48%;
+      top: 40%;
+      height: 96px;
+      width: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::after {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient {
+      right: 58%;
+      top: 27.9%;
+      height: 223px;
+      width: 4px;
+      background: transparent;
+      transform: rotate(-75.9deg);
+    }
+    #WithoutEgitech .menutap-svg_Poor-ineffcient::before {
+      left: -12%;
+      width: 100%;
+      background-size: 4px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 575px) {
+      .banner-menutap .banner-menutap_title
+      {
+          text-align: left;
+          font-size: 16px;
+      }
+    .banner-menutap .banner-menutap_title {
+      font-size: 20px;
+    }
+    .banner-menutap .banner-menutap_btn {
+      width: 233px;
+      margin-bottom: 0px;
+    }
+    .banner-menutap .banner-menutap_btn .withoutegitech,
+    .banner-menutap .banner-menutap_btn .withegitech {
+      font-size: 13px;
+      padding: 10px 10px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 460px) {
+    #WithoutEgitech {
+      left: -35px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 700px) {
+    #WithoutEgitech {
+      top: -100px;
+    }
+    #withegitech
+    {
+      top: -100px;
+    }
+
+    .banner-menutap .banner-menutap_svg {
+      height: 550px;
+    }
+    .banner-menutap .banner-menutap_btn {
+      position: relative;
+      z-index: 999;
+      cursor: pointer;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 420px) {
+      .banner-menutap .banner-menutap_svg
+      {
+          height: 400px;
+      }
+      .banner-menutap .banner-menutap_title
+      {
+          font-size: 16px;
+      }
+      .banner-menutap .banner-menutap_btn .withoutegitech, .banner-menutap .banner-menutap_btn .withegitech
+      {
+          font-size: 11px;
+      }
+    #WithoutEgitech {
+      width: 300px;
+      top: -160px;
+      left: -20px;
+    }
+    #WithoutEgitech .menutap-svg_LowLabor-PoorInventory,
+    #WithoutEgitech .menutap-svg_PoorInventory-LowLabor,
+    #WithoutEgitech .menutap-svg_lowtranceability-lowlaborproductivity,
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability,
+    #WithoutEgitech .menutap-svg_lowlaborproductivity-lowtranceability,
+    #WithoutEgitech .menutap-svg_lowTraceability-inaccurateReport,
+    #WithoutEgitech .menutap-svg_inaccurateReport-lowTraceability,
+    #WithoutEgitech .menutap-svg_Inaccurate-Inefficient,
+    #WithoutEgitech .menutap-svg_Inaccurate-Redundant,
+    #WithoutEgitech .menutap-svg_Redundant-Inaccurate,
+    #WithoutEgitech .menutap-svg_Redundant-Low, #WithoutEgitech .menutap-svg_Low-Redundant,
+    #WithoutEgitech .menutap-svg_Redudant-lowtraceabliliti,
+    #WithoutEgitech .menutap-svg_lowtraceabliliti-redudant,
+    #WithoutEgitech .menutap-svg_Poor-ineffcient,
+    #WithoutEgitech .menutap-svg_Inefficient-Inaccurate
+    {
+      display: none;
+    }
+    .banner-menutap .banner-menutap_btn
+    {
+      width: 203px;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1399px)
+  {
+      #withegitech .real-time
+      {
+          width: 80px;
+      }
+      #withegitech .optimize-inbound
+      {
+          width: 80px;
+      }
+      #withegitech .integrated-shipping-solutions {
+          width: 115px;
+          height: 2px;
+          top: 30%;
+          right: 34%;
+          transform: rotate(-37deg);
+      
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 115px;
+          height: 2px;
+          top: 30%;
+          left: 34%;
+          transform: rotate(37deg);
+      }
+      #withegitech .exceptional-customer
+      {
+          /* width: 131px;
+          height: 2px;
+          transform: rotate(34deg);
+          bottom:30%;
+          right:34%;
+           */
+           width: 100px;
+           height: 2px;
+           transform: rotate(34deg);
+           bottom:32%;
+           right:35%;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 100px;
+          height: 2px;
+          transform: rotate(-34deg);
+          bottom:32%;
+          left:35%;
+      }
+  }
+  @media (min-width: 1050px) and (max-width: 1355px)
+  {
+      #withegitech .optimize-inbound
+      {
+          width: 62px;
+      }
+      #withegitech .real-time
+      {
+          width: 62px;
+      }
+      #withegitech .integrated-shipping-solutions {
+          width: 100px;
+          top: 33%;
+          right: 34%;
+          transform: rotate(-37deg);
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 100px;
+          top: 33%;
+          left: 34%;
+          transform: rotate(37deg);
+      }
+  }
+  @media (min-width: 890px) and (max-width: 1050px)
+  {
+      #withegitech .optimize-inbound
+      {
+          width: 64px;
+      }
+      #withegitech .real-time
+      {
+          width: 64px;
+      }
+      #withegitech .exceptional-customer
+      {
+          width: 74px;
+          transform: rotate(34deg);
+          bottom: 37%;
+          right: 35%;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 74px;
+          transform: rotate(-34deg);
+          bottom: 37%;
+          left: 35%;
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 74px;
+          top: 36%;
+          left: 35%;
+      }
+      #withegitech .integrated-shipping-solutions
+      {
+          width: 74px;
+          top: 36%;
+          right: 35%;
+      }
+  }
+  @media (min-width: 750px) and (max-width: 890px)
+  {
+      #withegitech .optimize-inbound
+      {
+          width: 50px;
+      }
+      #withegitech .real-time
+      {
+          width: 50px;
+      }
+      #withegitech .exceptional-customer
+      {
+          width: 60px;
+          bottom: 38%;
+          right: 35%;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 60px;
+          bottom: 38%;
+          left: 35%;
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 60px;
+          top: 38%;
+          left: 35%;
+      }
+      #withegitech .integrated-shipping-solutions
+      {
+          width: 60px;
+          top: 38%;
+          right: 35%;
+      }
+  }
+  @media (min-width: 700px) and (max-width: 750px)
+  {
+      #withegitech .optimize-inbound
+      {
+          width: 50px;
+      }
+      #withegitech .real-time
+      {
+          width: 50px;
+      }
+      #withegitech .exceptional-customer
+      {
+          width: 60px;
+          bottom: 38%;
+          right: 35%;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 60px;
+          bottom: 38%;
+          left: 35%;
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 50px;
+          top: 41%;
+          left: 35%;
+      }
+      #withegitech .integrated-shipping-solutions
+      {
+          width: 50px;
+          top: 41%;
+          right: 35%;
+      }
+  }
+  @media (min-width: 550px) and (max-width: 700px)
+  {
+      #withegitech .integrated-shipping-solutions::before,
+      #withegitech .optimize-inbound::before,
+      #withegitech .exceptional-customer::before,
+      #withegitech .effcient-labor::before,
+      #withegitech .real-time::before,
+      #withegitech .advanced-anlytics::before
+      {
+          display: none;
+      }
+      #withegitech .optimize-inbound
+      {
+          width: 60px;
+      bottom: 42%;
+      left: 35%;
+      opacity: 0.3;
+      }
+      #withegitech .real-time
+      {
+          width: 50px;
+          opacity: 0.3;
+      }
+      #withegitech .exceptional-customer
+      {
+          width: 60px;
+          bottom: 42%;
+          right: 35%;
+          opacity: 0.3;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 60px;
+      bottom: 42%;
+      left: 35%;
+      opacity: 0.3;
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 50px;
+          top: 41%;
+          left: 35%;
+          opacity: 0.3;
+      }
+      #withegitech .integrated-shipping-solutions
+      {
+          width: 50px;
+          top: 41%;
+          right: 35%;
+          opacity: 0.3;
+      }
+  }
+  @media (min-width: 320px) and (max-width: 550px)
+  {
+      #withegitech .integrated-shipping-solutions,
+      #withegitech .optimize-inbound,
+      #withegitech .exceptional-customer,
+      #withegitech .effcient-labor,
+      #withegitech .real-time,
+      #withegitech .advanced-anlytics
+      {
+          display: none;
+      }
+  }
+  @media (min-width: 1700px) and (max-width: 1921px)
+  {
+      #withegitech .integrated-shipping-solutions
+      {
+          width: 140px;
+          top: 25%;
+      }
+      #withegitech .advanced-anlytics
+      {
+          width: 140px;
+          top: 25%;
+      }
+      #withegitech .exceptional-customer
+      {
+          width: 140px;
+          bottom: 27%;
+      }
+      #withegitech .effcient-labor
+      {
+          width: 140px;
+          bottom: 27%;
+      }
+  }
+  @media (min-width: 320px) and (max-width: 600px)
+  {
+    .banner-menutap_btn.vn 
+    {
+      margin-bottom: 0px;
+    }
+    .banner-menutap .banner-menutap_btn .withegitech,
+    .banner-menutap .banner-menutap_btn .withoutegitech
+    {
+      font-size: 12px;
+      padding: 10px 10px;
+    }
+    .banner-menutap .banner-menutap_btn
+    {
+      width: 243px;
+    }
+  }
